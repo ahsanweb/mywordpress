@@ -1,0 +1,356 @@
+#messages{color: #e43131;}
+.navbar {
+    border-radius: 0px;
+}
+#navbar .cnav a.dropdown-toggle {
+    /*background: #337ab7;*/
+    margin-left: 5px;
+    color: #fff;
+    padding: 8px;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+.spacer30{ height:30px;}
+
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-left > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+  
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+.green{ background:#5fd051 !important}
+.red{ background:#d05151 !important}
+.cinput{ min-width:400px;}
+#results{
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+
+.view-account{
+	background:#FFFFFF; 
+	margin-top:20px;
+}
+.view-account .form-group { margin-bottom: 0; }
+.view-account p{ padding:0; }
+.view-account .pro-label {
+	font-size: 13px;
+	padding: 4px 5px;
+	position: relative;
+	top: -5px;
+	margin-left: 10px;
+	display: inline-block
+}
+.view-account .side-bar { padding-bottom: 30px }
+.view-account .side-bar .user-info {
+	text-align: center;	
+	margin-bottom: 15px;
+	padding: 30px;
+	color: #616670;
+	border-bottom: 1px solid #f3f3f3
+}
+.view-account .side-bar .user-info .meta li a { color: #616670 }
+.view-account .content-panel { padding: 30px }
+.view-account .content-panel .title {
+	margin-bottom: 15px;
+	margin-top: 0;
+	font-size: 18px
+}
+.view-account .content-panel .fieldset-title {
+	padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaf1;
+    margin-bottom: 15px;
+    color: #999;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 25px;
+}
+.view-account  fieldset { margin: 15px 0 35px ; }
+
+.tabbable-panel { padding: 15px 0 0; }
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+	border: none;
+  	margin: 0px;
+}
+.tabbable-line > .nav-tabs > li { margin-right: 2px; }
+.tabbable-line > .nav-tabs > li > a {
+  	border: 0;
+  	margin-right: 0;
+  	color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i { color: #a6a6a6; }
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover { border-bottom: 4px solid #fbcdcf; }
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  	border: 0;
+  	background: none !important;
+  	color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i { color: #a6a6a6; }
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu { margin-top: 0px; }
+.tabbable-line > .nav-tabs > li.active {
+  	border-bottom: 4px solid #f3565d;
+  	position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  	border: 0;
+  	color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i { color: #404040; }
+.tabbable-line > .tab-content {
+  	margin-top: -3px;
+  	background-color: #fff;
+  	border: 0;
+}
+.portlet .tabbable-line > .tab-content { padding-bottom: 0; }
+.tabbable-line.tabs-below > .nav-tabs > li { border-top: 4px solid transparent; }
+.tabbable-line.tabs-below > .nav-tabs > li > a { margin-top: 0; }
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  	border-bottom: 0;
+  	border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  	margin-bottom: -2px;
+  	border-bottom: 0;
+  	border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+  	margin-top: -10px;
+  	border-top: 0;
+  	border-bottom: 1px solid #eee;
+  	padding-bottom: 15px;
+}
+.view-account .modal-dialog {width:600px;}
+.view-account .thumbnail {margin-bottom:6px;}
+
+
+.loginpopupR .modal-login {
+		width: 320px;
+	}
+	.loginpopupR .modal-login .modal-content {
+		border-radius: 1px;
+		border: none;
+	}
+	.loginpopupR .modal-login .modal-header {
+        position: relative;
+		justify-content: center;
+        background: #f2f2f2;
+	}
+    .loginpopupR .modal-login .modal-body {
+        padding: 30px;
+    }
+    .loginpopupR .modal-login .modal-footer {
+        background: #f2f2f2;
+    }
+	.loginpopupR .modal-login h4 {
+		text-align: center;
+		font-size: 26px;
+	}
+    .loginpopupR .modal-login label {
+        font-weight: normal;
+        font-size: 13px;
+    }
+	.loginpopupR .modal-login .form-control, .loginpopupR .modal-login .btn {
+		min-height: 38px;
+		border-radius: 2px; 
+	}
+	.loginpopupR .modal-login .hint-text {
+		text-align: center;
+	}
+	.loginpopupR .modal-login .close {
+        position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+    .loginpopupR .modal-login .checkbox-inline {
+        margin-top: 12px;
+    }
+    .loginpopupR .modal-login input[type="checkbox"]{
+        margin-top: 2px;
+    }
+	.loginpopupR .modal-login .btn {
+        min-width: 100px;
+		background: #3498db;
+		border: none;
+		line-height: normal;
+	}
+	.loginpopupR .modal-login .btn:hover, .loginpopupR .modal-login .btn:focus {
+		background: #248bd0;
+	}
+	.loginpopupR .modal-login .hint-text a {
+		color: #999;
+	}
+	.loginpopupR .trigger-btn {
+		display: inline-block;
+		margin: 100px auto;
+	}
+
+
+
+.loginpopupR{
+
+	    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    padding-left: 17px;
+    background: hsla(0, 0%, 0%, 0.28);
+}
+
+.profileimage img{
+	max-height: 250px;
+	min-height: 250px;
+    width: 100%;
+    object-fit: cover;}
+.streamerbox h2, .user-info li{ text-transform:capitalize;}
+.user-info .name{ text-transform:capitalize;}
+.streamerbox h2{min-height: 33px; margin-top: 5px}
+
+@media (max-width:767px) {
+	
+	.view-account .content-panel .title { text-align: center }
+	.view-account .side-bar .user-info { padding: 0 }
+	.view-account .side-bar .user-info .img-profile {
+		width: 60px;
+		height: 60px
+	}
+	.view-account .side-bar .user-info .meta li { margin-bottom: 5px }
+	.view-account .content-panel .content-header-wrapper .actions {
+		position: static;
+		margin-bottom: 30px
+	}
+	.view-account .content-panel { padding: 0 }
+	.view-account .content-panel .content-utilities .page-nav {
+		position: static;
+		margin-bottom: 15px
+	}
+	.drive-wrapper .drive-item {
+		width: 100px;
+		margin-right: 5px;
+		float: none
+	}
+	.drive-wrapper .drive-item-thumb {
+		width: auto;
+		height: 54px
+	}
+	.drive-wrapper .drive-item-thumb .fa {
+		font-size: 24px;
+		padding-top: 0
+	}
+	.view-account .content-panel .avatar .figure img {
+		float: none;
+		margin-bottom: 15px
+	}
+	.view-account .file-uploader { margin-bottom: 15px }
+	.view-account .mail-subject {
+		max-width: 100px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis
+	}
+	.view-account .content-panel .mails-wrapper .mail-item .time-container { position: static }
+	.view-account .content-panel .mails-wrapper .mail-item .time-container .time {
+		width: auto;
+		text-align: left
+	}
+	
+}
+
+@media (min-width:768px) {
+	
+	.view-account .side-bar .user-info {
+		padding: 0;
+		padding-bottom: 15px
+	}
+	.view-account .mail-subject .subject {
+		max-width: 200px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis
+	}
+	
+}
+
+@media (min-width:992px) {
+	
+	.view-account .content-panel {
+		min-height: 800px;
+		border-left: 1px solid #f3f3f7;
+		margin-left: 200px
+	}
+	.view-account .mail-subject .subject {
+		max-width: 280px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis
+	}
+	.view-account .side-bar {
+		position: absolute;
+		width: 200px;
+		min-height: 600px
+	}
+	.view-account .side-bar .user-info {
+		margin-bottom: 0;
+		border-bottom: none;
+		padding: 30px
+	}
+	.view-account .side-bar .user-info .img-profile {
+		width: 120px;
+		height: 120px
+	}
+
+}
+                                    
